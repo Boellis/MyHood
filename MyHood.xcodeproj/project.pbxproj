@@ -14,6 +14,8 @@
 		A96550E71E6CCBBF00268BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96550E51E6CCBBF00268BF7 /* LaunchScreen.storyboard */; };
 		A96550F21E6CCBBF00268BF7 /* MyHoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96550F11E6CCBBF00268BF7 /* MyHoodTests.swift */; };
 		A96550FD1E6CCBBF00268BF7 /* MyHoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96550FC1E6CCBBF00268BF7 /* MyHoodUITests.swift */; };
+		A965510C1E6CD2E700268BF7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A965510B1E6CD2E700268BF7 /* Post.swift */; };
+		A965510F1E6CDD8500268BF7 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A965510E1E6CDD8500268BF7 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A96550F81E6CCBBF00268BF7 /* MyHoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96550FC1E6CCBBF00268BF7 /* MyHoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHoodUITests.swift; sourceTree = "<group>"; };
 		A96550FE1E6CCBBF00268BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A965510B1E6CD2E700268BF7 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A965510E1E6CDD8500268BF7 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		A96550DB1E6CCBBF00268BF7 /* MyHood */ = {
 			isa = PBXGroup;
 			children = (
+				A965510D1E6CDD5D00268BF7 /* View */,
+				A965510A1E6CD2D600268BF7 /* Model */,
 				A96550DC1E6CCBBF00268BF7 /* AppDelegate.swift */,
 				A96550DE1E6CCBBF00268BF7 /* ViewController.swift */,
 				A96550E01E6CCBBF00268BF7 /* Main.storyboard */,
@@ -123,6 +129,22 @@
 				A96550FE1E6CCBBF00268BF7 /* Info.plist */,
 			);
 			path = MyHoodUITests;
+			sourceTree = "<group>";
+		};
+		A965510A1E6CD2D600268BF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A965510B1E6CD2E700268BF7 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A965510D1E6CDD5D00268BF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A965510E1E6CDD8500268BF7 /* PostCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A965510C1E6CD2E700268BF7 /* Post.swift in Sources */,
 				A96550DF1E6CCBBF00268BF7 /* ViewController.swift in Sources */,
 				A96550DD1E6CCBBF00268BF7 /* AppDelegate.swift in Sources */,
+				A965510F1E6CDD8500268BF7 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
